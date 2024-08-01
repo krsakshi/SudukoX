@@ -55,6 +55,6 @@ To get started with the Sudoku Solver application, follow these steps:
    ```bash
    git clone https://github.com/krsakshi/sudoku-solver.git
 
-<h2>Screenshots</h2> <div class="screenshots"> <h3>Dark Mode</h3> <img src="Darkmode.png" alt="Dark Mode"> <h3>Light Mode</h3> <img src="Lightmode.png" alt="Lightmode"></div> 
+<h2>Screenshots</h2> <div class="screenshots"> <h3>Dark Mode</h3>  <h3>Light Mode</h3> <img src="Lightmode.png" alt="Lightmode"><img src="Darkmode.png" alt="Dark Mode"></div> 
 
 <h2>License</h2> <p> This project is licensed under the MIT License. See the <a href="https://github.com/krsakshi/Suduko-Solver/blob/main/LICENSE">LICENSE</a> file for details. </p>
