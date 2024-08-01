@@ -1,0 +1,123 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f3e9;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode {
+    background-color: #2e2e2e;
+    color: #f7f7f7;
+}
+
+h1 {
+    margin: 20px;
+    font-size: 2em;
+    color: #333;
+}
+
+#mode-toggle {
+    margin-bottom: 10px;
+}
+
+#mode-toggle button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: #6d6875;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#mode-toggle button:hover {
+    background-color: #b5838d;
+}
+
+#sudoku-board {
+    display: grid;
+    grid-template-columns: repeat(9, 50px);
+    gap: 2px;
+    background-color: #333;
+    padding: 5px;
+    border: 2px solid #333;
+    border-radius: 10px;
+}
+
+input[type="text"] {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 1.5em;
+    border: 1px solid #ddd;
+    outline: none;
+    background-color: #fff;
+    transition: background-color 0.3s, border 0.3s;
+}
+
+body.dark-mode #sudoku-board {
+    background-color: #444;
+    border-color: #666;
+}
+
+body.dark-mode input[type="text"] {
+    border: 1px solid #777;
+    background-color: #555;
+    color: #eee;
+}
+
+input[type="text"]:focus {
+    border: 1px solid #6d6875;
+    background-color: #ffb4a2;
+}
+
+#solve-button, #refresh-button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    background-color: #6d6875;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#solve-button:hover, #refresh-button:hover {
+    background-color: #b5838d;
+}
+
+#controls {
+    margin-top: 20px;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #6d6875;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    width: 100%;
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.2);
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+footer a {
+    color: #ffcdb2;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
