@@ -57,4 +57,8 @@ To get started with the Sudoku Solver application, follow these steps:
 
 <h2>Screenshots</h2> <div class="screenshots"><h3>Light Mode</h3> <img src="Lightmode.png" alt="Lightmode"> <h3>Dark Mode</h3><img src="Darkmode.png" alt="Dark Mode"></div> 
 
+<h2> Deployment</h2>
+<P> To Solve a suduko Problem or view the project <a href="https://suduko-solver-teal.vercel.app/">Click Here</a> </P>
 <h2>License</h2> <p> This project is licensed under the MIT License. See the <a href="https://github.com/krsakshi/Suduko-Solver/blob/main/LICENSE">LICENSE</a> file for details. </p>
+
+
